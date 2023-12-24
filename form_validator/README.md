@@ -15,8 +15,32 @@ Step 1 - HTML
   - A small tag with the text `Error message`
 
 ```js
-<h2>Register With Us</h2>
-<label for="username">Username</label>
-<input type="text" id="username" placeholder="Enter uername">
-<small>Error message</small>
+<div class="form-control">
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="Enter uername">
+    <small>Error message</small>
+</div>
 ```
+
+- Copy the `.form-control` div, three times
+- Edit the divs, as sgown bellow:
+
+```js
+<div class="form-control">
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="Enter email">
+    <small>Error message</small>
+</div>
+<div class="form-control">
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter password">
+    <small>Error message</small>
+</div>
+<div class="form-control">
+    <label for="password2">Confirm Password</label>
+    <input type="password" id="password2" placeholder="Enter password again">
+    <small>Error message</small>
+</div>
+```
+
+- Add a button `Submit`
